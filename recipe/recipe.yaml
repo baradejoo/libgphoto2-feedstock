@@ -12,7 +12,7 @@ source:
   sha256: 51993f5d9bfb6b4e5925cbbe5883085791bff6f81bcacb8ffe1b783ce76d586a
 
 build:
-  number: 0
+  number: 1
   skip: win
   script:
     - ./configure --prefix=$PREFIX --disable-static
